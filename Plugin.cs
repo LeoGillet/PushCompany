@@ -58,7 +58,7 @@ namespace PushCompany
             config_PushCooldown = Config.Bind("Push Cooldown", "Value", 0.025f, "How long until the player can push again");
             config_PushForce = Config.Bind("Push Force", "Value", 12.5f, "How strong the player pushes.");
             config_PushRange = Config.Bind("Push Range", "Value", 3.0f, "The distance the player is able to push.");
-            config_PushCost = Config.Bind("Push Cost", "Value", 0.08f, "The energy cost of each push.");
+            config_PushCost = Config.Bind("Push Cost", "Value", 0.00f, "The energy cost of each push.");
         }
 
         private void LoadBundle()
